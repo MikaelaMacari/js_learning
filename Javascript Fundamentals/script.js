@@ -88,3 +88,10 @@ cond_op();
 //     console.log(i);
 //   }
 // }
+
+// ---------------------------- Task 3  CONDITIONAL OPERATOR ------------------------------
+// let a = Number(prompt("Enter first number: "));
+// let b = Number(prompt("Enter second number: "));
+// let c = Number(prompt("Enter third number: "));
+
+// alert(`Minimum number is: ${Math.min(a, b, c)}\nMaximum number is: ${Math.max(a, b, c)}`);
