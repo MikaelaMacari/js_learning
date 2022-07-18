@@ -95,3 +95,19 @@ cond_op();
 // let c = Number(prompt("Enter third number: "));
 
 // alert(`Minimum number is: ${Math.min(a, b, c)}\nMaximum number is: ${Math.max(a, b, c)}`);
+
+// ---------------------------- Task 4  FUNCTIONS ------------------------------
+// const str = prompt("Enter your name: ");
+// const ucFirst = (str) => {
+//   let newStr = str.toLowerCase();
+//   return newStr.charAt(0).toUpperCase() + newStr.slice(1);
+// };
+// console.log(ucFirst(str));
+
+// ---------------------------- Task 5  String ------------------------------
+// let str = "$120";
+// const extractCurrencyValue = (str) => {
+//   return Number(str.split("").splice(1).join(""));
+// };
+// console.log(extractCurrencyValue(str));
+// console.log(extractCurrencyValue("$120") === 120);
