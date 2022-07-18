@@ -132,3 +132,18 @@ cond_op();
 // if (!(age >= 14 && age <= 90)) {
 //   console.log("This age is not allowed");
 // }
+
+// ---------------------------- Task 8  Conditional Operator ------------------------------
+// let username = "mihaela_macari";
+// let password = 12345;
+
+// if (username === "mihaela_macari" && password === 12345) {
+//   console.log("Hi!");
+// }
+// if (username === "mihaela_macari" && password !== 12345) {
+//   console.log("Password incorrect");
+// } else if (username !== "mihaela_macari" && password === 12345) {
+//   console.log("Username incorrect");
+// } else if (!username && !password) {
+//   console.log("Validation Error");
+// }
