@@ -153,3 +153,15 @@ cond_op();
 // alert(`Hello, ${firstName}`);
 // const question = confirm("Do you know Javascript?");
 // alert(question ? "Молодец" : " Можно начать изучение прямо сейчас");
+
+// ---------------------------- Task 10  Conditional Operator and Loops ------------------------
+
+// let num = 12;
+// const dividers = (number) => {
+//   for (let i = 1; i < number; i++) {
+//     if (number % i == 0) {
+//       console.log(i);
+//     }
+//   }
+// };
+// dividers(num);
