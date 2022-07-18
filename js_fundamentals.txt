@@ -1,0 +1,11 @@
+- JavaScript fundamentals
+Task #1 - conditional operator
+Task #2 - loops
+Task #3 - conditional operator
+Task #4 - functions
+Task #5 - String
+Task #6 - conditional operator
+Task #7 - conditional operator
+Task #8 - conditional operator
+Task #9 - user interaction
+Task #10 - conditional operator and loops
