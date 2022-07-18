@@ -123,3 +123,12 @@ cond_op();
 // } else {
 //   alert("Error");
 // }
+
+// ---------------------------- Task 7  Conditional Operator ------------------------------
+// let age = 95;
+// if (age < 14 || age > 90) {
+//   console.log("This age is not allowed");
+// }
+// if (!(age >= 14 && age <= 90)) {
+//   console.log("This age is not allowed");
+// }
