@@ -147,3 +147,9 @@ cond_op();
 // } else if (!username && !password) {
 //   console.log("Validation Error");
 // }
+
+// ---------------------------- Task 9  User Interaction ------------------------------
+// let firstName = prompt("What's your name?");
+// alert(`Hello, ${firstName}`);
+// const question = confirm("Do you know Javascript?");
+// alert(question ? "Молодец" : " Можно начать изучение прямо сейчас");
