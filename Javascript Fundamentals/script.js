@@ -111,3 +111,15 @@ cond_op();
 // };
 // console.log(extractCurrencyValue(str));
 // console.log(extractCurrencyValue("$120") === 120);
+
+// ---------------------------- Task 6  Conditional Operator ------------------------------
+// let num = Number(prompt("Enter a number: "));
+// if (num > 0) {
+//   alert(1);
+// } else if (num < 0) {
+//   alert(-1);
+// } else if (num === 0) {
+//   alert(0);
+// } else {
+//   alert("Error");
+// }
