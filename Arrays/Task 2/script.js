@@ -20,10 +20,10 @@ const getAllIndexes = (arr, val) => {
 console.log(`Index of minimum number is: ${getAllIndexes(arr, minNum)}\nIndex of maximum number is: ${getAllIndexes(arr, maxNum)}`);
 
 console.log("******************* 3. сортирует массив убыванию *********************");
-console.log(arr.sort((a, b) => b - a));
+const sortedArr = arr.sort((a, b) => b - a);
+console.log(sortedArr);
 
 console.log("*** 4.	выводит элементы массива которые имеют значение больше чем среднее арифметическое значение всех элементов массива ***");
 
 const sumOfArr = arr.reduce((prevValue, currValue) => prevValue + currValue, 0);
-
-console.log(arr.filter((item) => item > sumOfArr));
+console.log(arr.filter((item) => item > sumOfArr / 2));
