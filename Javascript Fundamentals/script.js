@@ -136,13 +136,15 @@ cond_op();
 // ---------------------------- Task 8  Conditional Operator ------------------------------
 // let username = "mihaela_macari";
 // let password = 12345;
+// const USERNAME = "mihaela_macari";
+// const PASSWORD = 12345;
 
-// if (username === "mihaela_macari" && password === 12345) {
+// if (username === USERNAME  && password === PASSWORD) {
 //   console.log("Hi!");
 // }
-// if (username === "mihaela_macari" && password !== 12345) {
+// if (username === USERNAME && password !== PASSWORD) {
 //   console.log("Password incorrect");
-// } else if (username !== "mihaela_macari" && password === 12345) {
+// } else if (username !== USERNAME && password === PASSWORD) {
 //   console.log("Username incorrect");
 // } else if (!username && !password) {
 //   console.log("Validation Error");
