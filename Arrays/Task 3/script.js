@@ -14,7 +14,8 @@ styles[idxOfMiddle] = "Классика";
 console.log(styles);
 
 console.log("4.	Удалите первый элемент массива и покажите его.");
-styles.shift();
+const removedEl = styles.shift();
+console.log(removedEl);
 console.log(styles);
 
 console.log("5.	Вставьте «Рэп» и «Регги» в начало массива.");
