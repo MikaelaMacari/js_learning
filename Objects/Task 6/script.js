@@ -8,15 +8,9 @@ const arrOfObj = [
 ];
 
 const showCoordinates = (arr) => {
-  return arr.filter((item) => item.x !== null && item.y !== undefined);
-
-  // for (let value of Object.values(item)) {
-  //   return value !== null;
-  // }
-  // for (key in item) {
-  //   return item[key] !== null;
-  // }
-  // }
+  return arr.filter((item) => {
+    return Number(item.x) && Number(item.y);
+  });
 };
 
 console.log(showCoordinates(arrOfObj));
