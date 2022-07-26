@@ -1,21 +1,35 @@
-// -------------------- Task #8 - working with time -----------------------
+// // -------------------- Task #8 - working with time -----------------------
 
-let clock = document.getElementById("clock");
-let hour = document.getElementById("hour");
-let minute = document.getElementById("minute");
-let second = document.getElementById("second");
 let startBtn = document.getElementById("start_btn");
 let stopBtn = document.getElementById("stop_btn");
 
-const time = new Date();
-const hours = time.getHours();
-const minutes = time.getMinutes();
-const seconds = time.getSeconds();
+document.getElementById("hour").style.color = "red";
+document.getElementById("minute").style.color = "green";
+document.getElementById("second").style.color = "blue";
+let waitTimer;
 
-hour.innerHTML = hours;
-minute.innerHTML = minutes;
-second.innerHTML = seconds;
+function showTime() {
+  let time = new Date();
+  let hour = time.getHours();
+  let min = time.getMinutes();
+  let sec = time.getSeconds();
 
-hour.style.color = "red";
-minute.style.color = "green";
-second.style.color = "blue";
+  hour = hour < 24 ? "0" + hour : hour;
+  min = min < 10 ? "0" + min : min;
+  sec = sec < 10 ? "0" + sec : sec;
+
+  document.getElementById("hour").innerHTML = hour;
+  document.getElementById("minute").innerHTML = min;
+  document.getElementById("second").innerHTML = sec;
+}
+
+function startClock() {
+  stopClock();
+  waitTimer = setInterval(showTime, 1000);
+}
+
+function stopClock() {
+  clearInterval(waitTimer);
+}
+startBtn.addEventListener("click", startClock);
+stopBtn.addEventListener("click", stopClock);
