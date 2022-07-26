@@ -1,0 +1,27 @@
+{
+  "personalInfo": {
+    "name": "John Smith",
+    "idnp": 2000072000900,
+    "dateOfBirth": "18.12.1990",
+    "placeOfBirth": "London",
+    "gender": "male"
+  },
+  "contacts": {
+    "phone": 123456789,
+    "address": "st.Marie 28",
+    "email": "john.smith@gmail.com",
+    "homePhone": 4742528
+  },
+  "workInfo": {
+    "jobTitle": "teacher",
+    "department": "Foreign Languages",
+    "startDateOfJob": "15/01/2010",
+    "salary": 2500,
+    "workExperience": 12,
+    "workSchedule": {
+      "startWork": "08:00",
+      "endWork": "17:00",
+      "lunch": "12:00-13:00"
+    }
+  }
+}
