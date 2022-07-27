@@ -1,0 +1,128 @@
+[
+  {
+    "personalInfo": { "name": "Ruby Falkus", "idnp": 552687411, "dateOfBirth": "1/1/1996", "placeOfBirth": "Palestina", "gender": "Male" },
+    "contacts": { "phone": "458 - 674 - 3998", "address": "5 Nobel Alley", "email": "rfalkus0@icio.us", "homePhone": "(474) 5892937" },
+    "workInfo": {
+      "jobTitle": "Recruiter",
+      "department": "Support",
+      "startDateOfJob": "7/2/2018",
+      "salary": 1500,
+      "workExperience": 4,
+      "workSchedule": { "startWork": "09:00", "endWork": "18:00", "lunch": "13:00-14:00" }
+    }
+  },
+  {
+    "personalInfo": { "name": "Kimberlee Dearle", "idnp": 849390311, "dateOfBirth": "16/10/1990", "placeOfBirth": "Mandai", "gender": "Female" },
+    "contacts": { "phone": "873-877-1345", "address": "0736 Gina Junction", "email": "kdearle1@mail.ru", "homePhone": "(104) 3737727" },
+    "workInfo": {
+      "jobTitle": "Account Executive",
+      "department": "Research and Development",
+      "startDateOfJob": "29/2/2015",
+      "salary": 2500,
+      "workExperience": 7,
+      "workSchedule": { "startWork": "08:00", "endWork": "17:00", "lunch": "12:00-13:00" }
+    }
+  },
+  {
+    "personalInfo": { "name": "Lorry Lared", "idnp": 620802738, "dateOfBirth": "2/2/1999", "placeOfBirth": "Dortmund", "gender": "Male" },
+    "contacts": { "phone": "179-500-0098", "address": "17 Milwaukee Road", "email": "llaredl@photobucket.com", "homePhone": "(570) 5283215" },
+    "workInfo": {
+      "jobTitle": "Office Assistant IV",
+      "department": "Services",
+      "startDateOfJob": "15/01/2020",
+      "salary": 1000,
+      "workExperience": 2,
+      "workSchedule": { "startWork": "08:00", "endWork": "17:00", "lunch": "12:00-13:00" }
+    }
+  },
+  {
+    "personalInfo": { "name": "Ev Adamo", "idnp": 5860233230001, "dateOfBirth": "111/3/1997", "placeOfBirth": "Budapest", "gender": "Male" },
+    "contacts": { "phone": "772-471-4624", "address": "37 Badeau Center", "email": "eadamo1f@huffingtonpost.com", "homePhone": "(263) 6643754" },
+    "workInfo": {
+      "jobTitle": "Marketing Assistant",
+      "department": "Services",
+      "startDateOfJob": "15/01/2019",
+      "salary": 1500,
+      "workExperience": 3,
+      "workSchedule": { "startWork": "08:00", "endWork": "17:00", "lunch": "12:00-13:00" }
+    }
+  },
+  {
+    "personalInfo": { "name": "Melloney Crowther", "idnp": 1417599120005, "dateOfBirth": "23/3/1987", "placeOfBirth": "Outlook", "gender": "Female" },
+    "contacts": { "phone": "470-524-4350", "address": "83 Scofield Circle", "email": "mcrowther1x@barnesandnoble.com", "homePhone": "(189) 3913429" },
+    "workInfo": {
+      "jobTitle": "Developer II",
+      "department": "Marketing",
+      "startDateOfJob": "7/5/2010",
+      "salary": 2500,
+      "workExperience": 12,
+      "workSchedule": { "startWork": "09:00", "endWork": "18:00", "lunch": "13:00-14:00" }
+    }
+  },
+  {
+    "personalInfo": { "name": "Conn Zebedee", "idnp": 8506559380005, "dateOfBirth": "11/2/1985", "placeOfBirth": "Las Vegas", "gender": "Male" },
+    "contacts": { "phone": "702-792-2757", "address": "8061 Farwell Park", "email": "czebedeek3@woothemes.com", "homePhone": "(807) 1208883" },
+    "workInfo": {
+      "jobTitle": "Internal Auditor",
+      "department": "Human Resources",
+      "startDateOfJob": "15/10/2007",
+      "salary": 4500,
+      "workExperience": 15,
+      "workSchedule": { "startWork": "08:00", "endWork": "17:00", "lunch": "12:00-13:00" }
+    }
+  },
+  {
+    "personalInfo": {
+      "name": "Alphard Chalice",
+      "idnp": 78865675400008,
+      "dateOfBirth": "16/2/1991",
+      "placeOfBirth": "Santa Maria",
+      "gender": "Male"
+    },
+    "contacts": { "phone": "285-611-2775", "address": "3378 Summer Ridge Way", "email": "achalicekl@tumblr.com", "homePhone": "(809) 2358369" },
+    "workInfo": {
+      "jobTitle": "Mechanical Systems Engineer",
+      "department": "Legal",
+      "startDateOfJob": "12/01/2013",
+      "salary": 3500,
+      "workExperience": 9,
+      "workSchedule": { "startWork": "08:00", "endWork": "17:00", "lunch": "12:00-13:00" }
+    }
+  },
+  {
+    "personalInfo": { "name": "Cam Pusill", "idnp": 2864719510009, "dateOfBirth": "3/3/1981", "placeOfBirth": "Cimo de Vila", "gender": "Female" },
+    "contacts": { "phone": "161-530-2707", "address": "51 Muir Point", "email": "jcpusillmn@amazon.com", "homePhone": "(530) 6687137" },
+    "workInfo": {
+      "jobTitle": "Structural Analysis Engineer",
+      "department": "Engineering",
+      "startDateOfJob": "15/10/2002",
+      "salary": 6500,
+      "workExperience": 20,
+      "workSchedule": { "startWork": "08:00", "endWork": "17:00", "lunch": "12:00-13:00" }
+    }
+  },
+  {
+    "personalInfo": { "name": "Lesya Clute", "idnp": 1581056805003, "dateOfBirth": "14/10/1984", "placeOfBirth": "Ferreira", "gender": "Female" },
+    "contacts": { "phone": "944-565-1399", "address": "50936 Hintze Plaza", "email": "lcluteat@histats.com", "homePhone": "(869) 7979743" },
+    "workInfo": {
+      "jobTitle": "Technical Writer",
+      "department": "Research and Development",
+      "startDateOfJob": "01/04/2008",
+      "salary": 4000,
+      "workExperience": 14,
+      "workSchedule": { "startWork": "09:00", "endWork": "18:00", "lunch": "13:00-14:00" }
+    }
+  },
+  {
+    "personalInfo": { "name": "Cornall Broseman", "idnp": 4737549610003, "dateOfBirth": "8/8/1980", "placeOfBirth": "Ngrayun", "gender": "Male" },
+    "contacts": { "phone": "508-578-6847", "address": "1 Del Mar Plaza", "email": "jcbrosemanrr@thetimes.co.uk", "homePhone": "(115) 6983646" },
+    "workInfo": {
+      "jobTitle": "Community Outreach Specialist",
+      "department": "Product Management",
+      "startDateOfJob": "17/01/2005",
+      "salary": 5000,
+      "workExperience": 17,
+      "workSchedule": { "startWork": "08:00", "endWork": "17:00", "lunch": "12:00-13:00" }
+    }
+  }
+]
