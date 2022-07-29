@@ -5,6 +5,7 @@ const showData = async () => {
   const employeesData = await response.json();
   console.log(employeesData);
   displayData(employeesData);
+  displaySalaryDetails(employeesData);
 };
 
 function addHeading(employee, table) {
@@ -79,6 +80,28 @@ function addCol(row, object) {
 }
 
 showData();
+const mediumSalary = (arr) => {
+  return arr.map((employee) => employee.workInfo.salary).reduce((acc, employeeSalary) => acc + employeeSalary, 0) / arr.length;
+};
+const sumOfSalaries = (arr) => {
+  return arr.map((employee) => employee.workInfo.salary).reduce((acc, employeeSalary) => acc + employeeSalary, 0);
+};
+const minimumSalary = (arr) => {
+  return Math.min(...arr.map((employee) => employee.workInfo.salary));
+};
+const maximumSalary = (arr) => {
+  return Math.max(...arr.map((employee) => employee.workInfo.salary));
+};
+const displaySalaryDetails = (arr) => {
+  document.getElementById("salary-details").innerHTML = `
+  <div class="salary">
+    <h2>Medium Salary:  <span>${mediumSalary(arr)}$</span></h2>
+    <h2>Minimum Salary:  <span>${minimumSalary(arr)}$</span> </h2>
+    <h2>Maximum Salary: <span> ${maximumSalary(arr)}$</span> </h2>
+    <h2>Sum of All Salaries:  <span>${maximumSalary(arr)}$</span> </h2>
+  </div>
+  `;
+};
 
 // const displayEmployeesData = (arr) => {
 //   document.getElementById("employees").innerHTML = `
