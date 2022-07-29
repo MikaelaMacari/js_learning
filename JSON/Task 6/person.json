@@ -20,9 +20,8 @@
       "salary": 1500,
       "workExperience": 4,
       "workSchedule": {
-        "startWork": "09:00",
-        "endWork": "18:00",
-        "lunch": "13:00-14:00"
+        "workingHours": "09:00 - 18:00",
+        "lunch": "13:00 - 14:00"
       }
     }
   },
@@ -47,9 +46,8 @@
       "salary": 2500,
       "workExperience": 7,
       "workSchedule": {
-        "startWork": "08:00",
-        "endWork": "17:00",
-        "lunch": "12:00-13:00"
+        "workingHours": "08:00 - 17:00",
+        "lunch": "12:00 - 13:00"
       }
     }
   },
@@ -74,9 +72,8 @@
       "salary": 1000,
       "workExperience": 2,
       "workSchedule": {
-        "startWork": "08:00",
-        "endWork": "17:00",
-        "lunch": "12:00-13:00"
+        "workingHours": "08:00 - 17:00",
+        "lunch": "12:00 - 13:00"
       }
     }
   },
@@ -101,9 +98,8 @@
       "salary": 1500,
       "workExperience": 3,
       "workSchedule": {
-        "startWork": "08:00",
-        "endWork": "17:00",
-        "lunch": "12:00-13:00"
+        "workingHours": "08:00 - 17:00",
+        "lunch": "12:00 - 13:00"
       }
     }
   },
@@ -128,9 +124,8 @@
       "salary": 2500,
       "workExperience": 12,
       "workSchedule": {
-        "startWork": "09:00",
-        "endWork": "18:00",
-        "lunch": "13:00-14:00"
+        "workingHours": "09:00 - 18:00",
+        "lunch": "13:00 - 14:00"
       }
     }
   },
@@ -155,9 +150,8 @@
       "salary": 4500,
       "workExperience": 15,
       "workSchedule": {
-        "startWork": "08:00",
-        "endWork": "17:00",
-        "lunch": "12:00-13:00"
+        "workingHours": "08:00 - 17:00",
+        "lunch": "12:00 - 13:00"
       }
     }
   },
@@ -182,9 +176,8 @@
       "salary": 3500,
       "workExperience": 9,
       "workSchedule": {
-        "startWork": "08:00",
-        "endWork": "17:00",
-        "lunch": "12:00-13:00"
+        "workingHours": "08:00 - 17:00",
+        "lunch": "12:00 - 13:00"
       }
     }
   },
@@ -209,9 +202,8 @@
       "salary": 6500,
       "workExperience": 20,
       "workSchedule": {
-        "startWork": "08:00",
-        "endWork": "17:00",
-        "lunch": "12:00-13:00"
+        "workingHours": "08:00 - 17:00",
+        "lunch": "12:00 - 13:00"
       }
     }
   },
@@ -236,9 +228,8 @@
       "salary": 4000,
       "workExperience": 14,
       "workSchedule": {
-        "startWork": "09:00",
-        "endWork": "18:00",
-        "lunch": "13:00-14:00"
+        "workingHours": "09:00 - 18:00",
+        "lunch": "13:00 - 14:00"
       }
     }
   },
@@ -263,9 +254,8 @@
       "salary": 5000,
       "workExperience": 17,
       "workSchedule": {
-        "startWork": "08:00",
-        "endWork": "17:00",
-        "lunch": "12:00-13:00"
+        "workingHours": "08:00 - 17:00",
+        "lunch": "12:00 - 13:00"
       }
     }
   }

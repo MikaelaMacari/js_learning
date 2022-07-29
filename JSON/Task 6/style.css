@@ -1,5 +1,3 @@
-
-
 body {
   background-color: #dedede;
   color: #333;
@@ -46,12 +44,15 @@ h3 {
   color: #b81f4a;
 }
 
-
-table, tr, th, td {
-  border-collapse:  collapse;
+table,
+tr,
+th,
+td {
+  border-collapse: collapse;
 }
 
-td, th {
+td,
+th {
   border: 1px solid #bdbdbd;
   padding: 8px;
   white-space: nowrap;

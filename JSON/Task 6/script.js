@@ -1,12 +1,84 @@
 const showData = async () => {
-    const requestURL = "./person.json";
-    const request = new Request(requestURL);
-    const response = await fetch(request);
-    const employeesData = await response.json();
-    console.log(employeesData)
-    // displayEmployeesData(employeesData);
-    displayData(employeesData);
+  const requestURL = "./person.json";
+  const request = new Request(requestURL);
+  const response = await fetch(request);
+  const employeesData = await response.json();
+  console.log(employeesData);
+  displayData(employeesData);
 };
+
+function addHeading(employee, table) {
+  const mainHeading = document.createElement("tr");
+  const secondaryHeading = document.createElement("tr");
+
+  for (const key in employee) {
+    const mainCol = document.createElement("th");
+    const colLength = Object.keys(employee[key]).length;
+
+    mainCol.innerHTML = key;
+    mainCol.setAttribute("colspan", colLength);
+
+    for (const childKey in employee[key]) {
+      const secondaryCol = document.createElement("th");
+      secondaryCol.innerHTML = childKey;
+      secondaryHeading.appendChild(secondaryCol);
+    }
+
+    mainHeading.appendChild(mainCol);
+  }
+
+  table.appendChild(mainHeading);
+  table.appendChild(secondaryHeading);
+}
+
+function displayData(employees) {
+  const table = document.getElementById("employees");
+
+  const [employee] = employees;
+
+  addHeading(employee, table);
+
+  for (const employee of employees) {
+    const row = addRow(employee);
+
+    table.appendChild(row);
+  }
+}
+
+function addRow(employee) {
+  const row = document.createElement("tr");
+
+  for (const key in employee) {
+    addCol(row, employee[key]);
+  }
+
+  return row;
+}
+
+function addCol(row, object) {
+  for (const childKey in object) {
+    const td = document.createElement("td");
+
+    if (typeof object[childKey] !== "object") {
+      td.innerHTML = object[childKey];
+    } else {
+      const workInfoTable = document.createElement("table");
+      const workInfoRow = document.createElement("tr");
+
+      const workInfoCol = document.createElement("td");
+      const workSchedule = [...Object.values(object[childKey])];
+      console.log(workSchedule);
+      workInfoCol.innerHTML = workSchedule;
+      td.style.padding = 0;
+      workInfoRow.appendChild(workInfoCol);
+      workInfoTable.appendChild(workInfoRow);
+      td.appendChild(workInfoTable);
+    }
+    row.appendChild(td);
+  }
+}
+
+showData();
 
 // const displayEmployeesData = (arr) => {
 //   document.getElementById("employees").innerHTML = `
@@ -112,78 +184,3 @@ const showData = async () => {
 // };
 //
 // showData();
-
-function addHeading(employee, table) {
-    const mainHeading = document.createElement('tr')
-    const secondaryHeading = document.createElement('tr')
-
-
-    for (const key in employee) {
-        const mainCol = document.createElement('th')
-        const colLength = Object.keys(employee[key]).length
-
-        mainCol.innerHTML = key;
-        mainCol.setAttribute('colspan', colLength)
-
-        for (const childKey in employee[key]) {
-            const secondaryCol = document.createElement('th')
-            secondaryCol.innerHTML = childKey
-            secondaryHeading.appendChild(secondaryCol)
-        }
-
-        mainHeading.appendChild(mainCol)
-    }
-
-    table.appendChild(mainHeading)
-    table.appendChild(secondaryHeading)
-}
-
-function displayData(employees) {
-    const table = document.getElementById('employees')
-
-    const [employee] = employees
-
-    addHeading(employee, table)
-
-    for (const employee of employees) {
-        const row = addRow(employee)
-
-        table.appendChild(row)
-    }
-}
-
-function addRow(employee) {
-    const row = document.createElement('tr')
-
-    for (const key in employee) {
-        addCol(row, employee[key])
-    }
-
-    return row
-}
-
-function addCol(row, object) {
-    for (const childKey in object) {
-
-        const td = document.createElement('td')
-
-        if (typeof object[childKey] !== 'object') {
-            td.innerHTML = object[childKey]
-        } else {
-            const workInfoTable = document.createElement('table')
-            const workInfoRow = document.createElement('tr')
-
-            for (const workInfoKey in object[childKey]) {
-                const workInfoCol = document.createElement('td')
-                workInfoCol.innerHTML = workInfoKey
-                td.style.padding = 0;
-                workInfoRow.appendChild(workInfoCol)
-            }
-            workInfoTable.appendChild(workInfoRow)
-            td.appendChild(workInfoTable)
-        }
-        row.appendChild(td)
-    }
-}
-
-showData()
