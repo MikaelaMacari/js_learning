@@ -10,6 +10,7 @@ const settimer = () => {
   if (timer_day == "" && timer_hour == "") {
     document.getElementById("timer").innerHTML = "You Must Complete all Fields!";
   } else {
+    let now = new Date();
     let timer_date = timer_day + " " + timer_hour + ":" + timer_min;
     let end = new Date(timer_date); // Arrange values in Date Time Format
     let second = 1000; // Total Millisecond In One Sec
