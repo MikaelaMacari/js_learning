@@ -5,6 +5,4 @@ const externalPages = pages.forEach((el) => {
   if (attribute.includes("https")) {
     el.style.color = "red";
   }
-
-  // if(attribute.includes("https"))
 });
