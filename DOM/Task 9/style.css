@@ -1,0 +1,19 @@
+.welcome {
+  max-width: 250px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  display: none;
+}
+
+#showNotification,
+.welcome {
+  background-color: #ecebeb;
+  padding: 1rem;
+  border-radius: 10px;
+  border: none;
+}
+
+#showNotification:hover {
+  cursor: pointer;
+}
