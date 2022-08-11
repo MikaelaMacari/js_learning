@@ -62,10 +62,20 @@ class Horse extends Animal {
     return `${this.name} ${super.sleep()}.`;
   }
 }
+class Veterinarian {
+  static treatAnimal() {
+    return arrOfAnimals.forEach((animal) => {
+      console.log(`Food: ${animal.food}, Location: ${animal.location}`);
+    });
+  }
+}
 
 const dog = new Dog("bone", "cage", "Dog", "Woof, Woof");
 const cat = new Cat("meat", "kitchen", "Cat", "Meow, Meow");
 const horse = new Dog("grass", "stable", "Horse", "Neigh, Neigh");
+const arrOfAnimals = [dog, cat, horse];
+
 console.log(dog.makeNoise());
 console.log(cat.sleep());
 console.log(horse.eat());
+Veterinarian.treatAnimal();
