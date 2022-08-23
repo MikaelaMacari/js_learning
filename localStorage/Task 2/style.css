@@ -1,0 +1,4 @@
+.editBtn:hover,
+.deleteBtn:hover {
+  cursor: pointer;
+}
