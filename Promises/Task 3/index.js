@@ -9,8 +9,8 @@ async function userRequest() {
     }, 2000);
   });
 }
-async function serverResponse() {
-  return await new Promise((resolve) => {
+function serverResponse() {
+  return new Promise((resolve) => {
     resolve("Response from server");
   });
 }
